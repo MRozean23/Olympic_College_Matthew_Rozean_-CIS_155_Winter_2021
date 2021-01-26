@@ -12,11 +12,11 @@
 
 /* HTML and Body Styles */
 html {
-    background-color: black; /* Demonstrate changing the color to how I would like it M2LO15 */
+    background-color: black; /* M2LO15 - Demonstrate changing the color to how I would like it  */
 }
 
-body h1 { /* body h1 is the element M2LO5*/
-   /* font-family is the parent M2LO5*/ 
+body h1 { /* M2LO5 - body h1 is the element */
+   /* M2LO5 - font-family is the parent */ 
     font-family: serif, 'Times New Roman'; /* M2LO13 */ 
     font-size: x-large; /* M2LO13 */ 
     text-decoration: underline;
@@ -42,8 +42,8 @@ img {
 }   
 
 /* Heading Styles */
-header { /* Each element changes how I want the text to look in the Header of my site M2LO3 */
-    font-family: Impact, 'Times New Roman'; /* Shows how I would like the text to look on my site M2LO13 */ 
+header { /* M2LO3 - Each element changes how I want the text to look in the Header of my site  */
+    font-family: Impact, 'Times New Roman'; /* M2LO13 - Shows how I would like the text to look on my site  */ 
     font-size: xx-large; /* M2LO13 */
     text-align: center; 
     margin-top: 20px; /* M2LO12 */
@@ -68,7 +68,7 @@ h1 {
 nav a:link, nav a:visited {
     color: white; /* M2LO15 */
     text-decoration: none; /* M2LO13 */ 
-    margin: 15px 15px 15px 15px; /* Gives the "tabs" an outline to look like a button and changing the appearance of the page M2LO12 */
+    margin: 15px 15px 15px 15px; /* M2LO12 - Gives the "tabs" an outline to look like a button and changing the appearance of the page  */
     padding: 10px 10px 10px 10px; /* M2LO12 */
     background-color: blue; /* M2LO15 */
 }
