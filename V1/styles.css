@@ -6,55 +6,42 @@ Css Stylesheet for index.html
 Author: Matthew Rozean
 Date: 01/22/2021
 Filename: styles.css
-Type: CSS3 */
+Type: CSS3 
+*/
 
-/* HTML and Body Styles */
-html {
-    background-color: black; /* M2LO15 - Demonstrate changing the color to how I would like it  */
-}
+/* Window and Body Styles */
 
-body h1 { /* M2LO5 - body h1 is the element */
-   /* M2LO5 - font-family is the parent */ 
-    font-family: serif, 'Times New Roman'; /* M2LO13 */ 
-    font-size: x-large; /* M2LO13 */ 
-    text-decoration: underline; /* M2LO3 - text-decoration is the parent element and underline is the child*/
-    color: white; /* M2LO15 */
-    background-color: black; /* M2LO15 */
-}
-body p {
-    font-family: serif; /* M2LO13 */
-    color: white; /* M2LO15 */
-    background-color: black; /* M2LO15 */
-}
-ol {
-    font-family: Impact, 'Times New Roman'; /* M2LO13 */ 
-    color: white; /* M2LO15 */
-} 
-/* header, body h1, body p, and ol all are edits to make the text look different in their respective positions */
-
-/* To make the image of jax be centered */
-img {
-    display: block; /* M2LO12 */
-    margin-left: auto; 
-    margin-right: auto; 
-}   
-
-/* Heading Styles */
-header { /* M2LO3 - Each element changes how I want the text to look in the Header of my site  */
+;body header { /* M2LO3 - Each element changes how I want the text to look in the Header of my site  */
     font-family: Impact, 'Times New Roman'; /* M2LO13 - Shows how I would like the text to look on my site  */ 
     font-size: xx-large; /* M2LO13 */
     text-align: center; 
     margin-top: 20px; /* M2LO12 */
     margin-bottom: 20px; /* M2LO12 */
     padding: 10px 10px 10px 10px;
-    background-color: white;
+    background-color: rgb(210, 180, 140);
     color: black; /* M2LO15 */
-}  
-h1 {
-    text-align: center;
 }
 
+body h1 {/* M2LO5 - body h1 is the element */
+    /* M2LO5 - font-family is the parent */ 
+    font-family: serif, 'Times New Roman'; /* M2LO13 */ 
+    font-size: x-large; /* M2LO13 */
+    text-align: center;
+    color: white; /* M2LO15 */
+}
 
+body p {
+    font-family: serif; /* M2LO13 */
+    color: black; /* M2LO15 */
+    background-color: rgb(210, 180, 140);
+}
+
+/* To make the image of jax be centered */
+img {
+    display: block; /* M2LO12 */
+    margin-left: auto; 
+    margin-right: auto; 
+}     
 
 /* Aside and Blockquote Styles */
 
@@ -63,32 +50,36 @@ h1 {
 
 /* Navigation Styles */	
 
-nav a:link, nav a:visited {
+ul { 
+    font-family: serif, 'Times New Roman'; /* M2LO13 */
     color: white; /* M2LO15 */
+    }
+
+nav.nav_bar li {
+    font-family: Impact, 'Times New Roman'; /* M2LO13 */ 
+    font-style: italic; /* M2LO13 */ 
+    list-style-type: none;
+    padding: 0; /* M2LO12 */
+    margin: 0; /* M2LO12 */
+    position: sticky;
+    display: inline; /* M2LO12 */
+    color: white;
+}
+
+nav a:link, nav a:visited {
+    display: inline-block;
+    color: black; /* M2LO15 */
+    text-align: center;
     text-decoration: none; /* M2LO13 */ 
-    margin: 15px 15px 15px 15px; /* M2LO12 - Gives the "tabs" an outline to look like a button and changing the appearance of the page  */
-    padding: 10px 10px 10px 10px; /* M2LO12 */
-    background-color: blue; /* M2LO15 */
+    padding: 14px 16px; /* M2LO12 */
+    background-color: rgb(210, 180, 140); /* M2LO15 */
 }
 nav a:hover, nav a:active { /* M2LO11 - Here I used pseudo class so that the tab changes color when the mouse hovers over the tab*/
+    background-color: white;
     color: black /* M2LO15 */
 }
 
-
 /* List Styles */
-ol, li {
-    font-style: italic; /* M2LO13 */ 
-    padding-bottom: 20px; /* M2LO12 */
-    margin-right: 20px; /* M2LO12 */
-    display: inline; /* M2LO12 */
-    list-style-type: none;
-    margin: 0; /* M2LO12 */
-    padding: 0; /* M2LO12 */
-}
-ul { 
-font-family: serif, 'Times New Roman'; /* M2LO13 */ 
-color: white; /* M2LO15 */
-}
 
 
 
