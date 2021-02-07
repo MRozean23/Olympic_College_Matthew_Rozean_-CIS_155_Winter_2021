@@ -7,37 +7,53 @@
     Author: Matthew Rozean
     Date: 01/22/2021
     Filename: index.html
-    Type: HTML5
-    -->
+    Type: HTML5 -->
 
     <meta charset="utf-8"> <!--- M1LO6 - The character coding for an html document -->
-    <meta name="keywords" content="french bulldog, jax, nutrition, exercise, health, breeders, about" />
+        <meta name="keywords" content="french bulldog, jax, nutrition, exercise, health, breeders, about" />
     <title> All Things French Bulldog </title>
-    <link href= "styles.css" rel="stylesheet" /> <!-- M1LO8, M1LO13, M2LO4 - Linking it to my CSS stylesheet -->
-    <link href="reset_styles.css" rel="stylesheet" />
+        <link href= "styles.css" rel="stylesheet" /> <!-- M1LO8, M1LO13, M2LO4 - Linking it to my CSS stylesheet -->
+            <link href="layout_styles.css" rel="stylesheet" />
+<style>
+    body {
+        background: url("bones.jpg") center center / 100% 100%
+    no-repeat fixed; /* - M4LO2 - Here is the format to link an image as the background and make the image strecth and fit the screen */
+    /* - M3LO9 - Made the background fixed so that it would not move when you scroll */
+    }
+</style>
  
 </head>
 
 <body>
-    <header> All Things French Bulldog </header>
+    <figure> <!-- M4O1 -->
+        <header> All Things French Bulldog </header>
+    </figure>
 
-<nav class="nav_bar"> <!-- M1LO12 - Here the navigation tags let me create "tabs" for my site -->
-    <ul> <!-- M1LO7 - The <ul> tag is an unordered list tag -->
-        <!-- To create tabs for users to click on -->
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Basic Information</a></li>
-        <li><a href="#">Nutrition</a></li>
-        <li><a href="#">Exercise</a></li>
-        <li><a href="#">Health Facts</a></li>
-        <li><a href="#">Breeders/Adoption</a></li>
-        <li><a href="about.html">About</a></li> <!-- M1LO13 - So the user can open the "About" page -->
-    </ul>
-</nav>
+<div class="nav_bar">
+    <nav> <!-- M1LO12 - Here the navigation tags let me create "tabs" for my site -->
+        <ul> <!-- M1LO7 - The <ul> tag is an unordered list tag -->
+            <!-- To create tabs for users to click on -->
+            <div id="tabs">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Basic Information</a></li>
+                <li><a href="#">Nutrition</a></li>
+                <li><a href="#">Exercise</a></li>
+                <li><a href="#">Health Facts</a></li>
+                <li><a href="#">Breeders/Adoption</a></li>
+                <li><a href="about.html">About</a></li> <!-- M1LO13 - So the user can open the "About" page -->
+            </div>
+        </ul>
+    </nav>
+<div>
 
-<h1> My Frenchie Jax </h1>
-
-    <img src="IMG_0422.jpg" width="250" height="240" alt="Jaxy"/> <!-- M1LO9 - To import an image of my dog -->
- 
+<div id="title">
+    <h1> My Frenchie Jax </h1>
+</div>
+    <figure> <!-- M4O1 -->
+        <img src="IMG_0584.JPG" width="250" height="240" alt="Snow Jax" />
+        <img src="IMG_0422.jpg" width="250" height="240" alt="Jaxy"/> <!-- M1LO9 - To import an image of my dog -->
+    </figure>
+<div class="page_info">
         <p>
             Hello this is a picture of my dog Jax and he is a French Bulldog. He was originally born in Bulgaria and his puppy name was "Andijio". 
             For a year he was living with a military family stationed in Germany, about an hour away from where I was in Germany, at the time.
@@ -47,17 +63,19 @@
             Hampshire and just recently completed a move to Washington State! I've learned so much about owning French Bulldogs and that's what 
             made me create this site to help others learn about the breed to see if a French Bullgdog is right for you!
         </p>
+</div>
 
-<body style="background-color: hsl(30, 51%, 26%);"></body>
+
+</body>
 
 <footer>
-
-    <h2>Sources</h2>
-
-    <ul>
-       <li> <div> https://www.akc.org/dog-breeds/french-bulldog/ </div> </li>
-       <li> <div> https://www.petplan.co.uk/pet-information/dog/breed/french-bulldog/ </div> </li>
-    </ul> 
-
+    <figure> <!-- - M4LO1 - to create a figure box -->
+        <h2> Sources </h2>
+    </figure>
+        <p>
+            <div>https://www.akc.org/dog-breeds/french-bulldog/ </div>
+            <div>https://www.petplan.co.uk/pet-information/dog/breed/french-bulldog/ </div>
+        </p>
+    
 </footer>
 </html>
