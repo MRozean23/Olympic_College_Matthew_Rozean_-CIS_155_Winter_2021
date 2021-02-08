@@ -76,14 +76,13 @@ figure img {
 
 /* Navigation Styles */	
 
-div.nav_bar > nav > ul {
+div.nav_bar li {
     font-family: Impact, 'Times New Roman';
     font-style: italic;
     text-align: center;
-    padding: 5px; /* M2LO12 */
     list-style-type: none;
 }
-div#tabs > li {
+div#tabs > ul > li {
     display: inline-block; 
     position: relative; /* - M3LO8 - This is so when there are smaller screens the navbar will adjust to the screen size */
     border-style: double;
