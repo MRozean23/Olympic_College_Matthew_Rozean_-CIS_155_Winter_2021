@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+
+/* This is where we learned about comments and how the comment section can give some info about my stylesheet.
+
+Css Stylesheet for index.html
+Author: Matthew Rozean
+Date: 01/22/2021
+Filename: styles.css
+Type: CSS3 
+*/
+
+/* HTML Styles */
+
+html {
+    background: url("bones.jpg") center center / 100% 100%
+    no-repeat fixed;
+}
+
+/* Body and NavBar Styles */
+
+body {
+    font-family: sans-serif, 'Times New Roman';
+    text-align: center;
+    padding: 10px;
+}
+
+figure > header {/* M2LO3 - Each element changes how I want the text to look in the Header of my site  */
+    font-family: Impact, 'Times New Roman'; /* M2LO13 - Shows how I would like the text to look on my site  */ 
+    font-size: xx-large; /* M2LO13 */
+    text-align: center; 
+    border-style: groove;
+    border-color: black;
+    padding: 10px 10px 15px 10px;
+    text-shadow: rgb(210, 180, 140) 20px 10px 10px;
+    opacity: 0.8; /* - M4LO6 - To make the header show some transparency */
+    background-color: rgb(92, 64, 51);
+    color: black; /* M2LO15 */
+}
+
+/* Table Styles Homepage */
+
+/* - M6LO7 - Here is all the styles for my table on the homepage*/
+table#frenchie {
+    font-family: Impact, 'Times New Roman';
+    text-align: center;
+    width: 100%;
+}
+/* - M6LO7 - Using an id tag I can make changes to this specific table and not affect any other tables I have */
+table#frenchie thead th {
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: rgb(210, 180, 140) 8px 6px 4px;
+    color: black;
+    padding: 5px;
+}
+
+table#frenchie tbody {
+    background: radial-gradient(rgb(92, 64, 51), rgb(128,96,65), rgb(210, 180, 140));
+}
+
+table#frenchie tbody td div {
+    text-align: left;
+    padding: 5px;
+}
+/* - M6LO7 - This code here makes it so the first column is styled different than the second column */
+table#frenchie tbody td:nth-of-type(odd) {
+    border: 3px solid black;
+    border-radius: 35px;
+    padding: 3px;
+}
+
+table#frenchie tbody td:nth-of-type(even) {
+    border: dotted black;
+    border-radius: 35px;
+}
+
+/* Column Styles Homepage */
+
+col#frenchieCol {
+    width: 25%;
+}
+
+col#frenchie2Col {
+    color: black; /* M2LO15 */
+    width: 65%;
+}
+
+/* Column Styles Health Page */
+
+col#healthCol {
+    width: 33%;
+}
+
+col#health2Col {
+    width: 33%;
+}
+
+col#health3Col {
+    width: 33%;;
+}
+
+/* Table Style Nutrition & Grooming Page */
+
+/* Table Style Exercise & Training Page */
+
+/* Table Style Health Information Page */
+
+/* Table Style Breeders/Adoption Options Page */
+
+/* Table Style About Page */
+
+/* Image Styles */
+
+figure img {
+    display: inline-block; /* M2LO12 */
+    border-style: outset;
+    border-width: thick;
+    border-color: black;
+    margin: auto;
+}
+
+/* Navigation Styles */	
+
+.nav_bar li {
+    font-family: Impact, 'Times New Roman';
+    font-style: italic;
+    text-align: center;
+    list-style-type: none;
+}
+#tabs > ul > li { /* - M5LO4 - This style of coding makes my nav bar stack, when the screen size gets smaller */
+    display: inline-block; 
+    position: relative; 
+    border-style: double;
+    border-color: black;
+    background-color: rgb(210, 180, 140);
+}
+
+nav a:link, nav a:visited {
+    display: inline-block;
+    color: black; /* M2LO15 */
+    text-align: center;
+    text-decoration: none; /* M2LO13 */ 
+    padding: 14px 16px; /* M2LO12 */
+    background-color: rgb(210, 180, 140); /* M2LO15 */
+}
+nav a:hover, nav a:active { /* M2LO11 - Here I used pseudo class so that the tab changes color when the mouse hovers over the tab*/
+    background-color: white;
+    color: black /* M2LO15 */
+}
+
+/* List Styles */
+
+
+
+/* Footer Styles */
+footer {
+    font-family: sans-serif, 'Times New Roman'; /* M2LO13 */
+    font-style: italic;
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+    color: black; 
+}

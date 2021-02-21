@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* 
+   Layout Style Sheet for Everything French Bulldog
+   Author: Matthew Rozean
+   Date: 01/31/2021  
+   
+   Filename: reset_styles.css
+*/
+
+/* Mobile Devices */
+
+/* - M5LO3 - */
+@media only screen and (max-width: 480px) {
+
+} 
+
+/* Tablet Devices */
+
+/* - M5LO3 - */
+@media only screen and (min-width: 481px){
+
+}
+
+/* Desktop Device */
+
+/* - M5LO3 - */
+@media only screen and (min-width: 769px) {
+    
+}
+
+
+/* Structural Styles */
+
+article, aside, div, figure, footer, header, html, nav, section {
+    display: block;
+    box-sizing: border-box;
+} /* - M3LO1 - Reset style sheet rules to make my most used elements blocks */
+/* - M3LO6 - By formatting everything as a block creates a grid and easier to play with your elements*/
+
+/* Navigation Styles */
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+} /* - M3LO1 - */
+
+nav a {
+    text-decoration: none;
+} /* - M3LO1 - */
+
+/* Typographic Styles */
+
+article, aside, blockquote, body, div, footer, h1, h2, h3, h4,
+h5, h6, header, html, img, li, nav, ol, p, ul {
+    background: transparent;
+    display: block;
+} /* - M3LO1 - */
+
+body {
+    line-height: 1;
+} /* - M3LO1 - */
+
+/* Table Layout */

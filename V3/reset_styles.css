@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* 
+   Reset Style Sheet for Everything French Bulldog
+   Author: Matthew Rozean
+   Date: 01/31/2021  
+   
+   Filename: reset_styles.css
+*/
+
+/* Structural Styles */
+
+article, footer, header, nav {
+    display: block;
+}
+
+/* Typographic Styles */
+
+article, aside, blockquote, body, div, footer, h1, h2, h3, h4,
+h5, h6, header, html, img, li, nav, ol, p, ul {
+    background: transparent;
+}
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
+}
