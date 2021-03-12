@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+
+/*
+    Css Stylesheet for index.html
+    Author: Matthew Rozean
+    Date: 03/09/2021
+    Filename: tables.css
+    Type: CSS3 
+*/
+
+/* Table Styles Homepage */
+
+/* - M6LO7 - Here is all the styles for my table on the homepage*/
+table#frenchie {
+    font-family: Impact, 'Times New Roman';
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* - M6LO7 - Using an id tag I can make changes to this specific table and not affect any other tables I have */
+table#frenchie thead th {
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: rgb(210, 180, 140) 8px 6px 4px;
+    color: black;
+    padding: 5px;
+}
+
+table#frenchie tbody {
+    background: radial-gradient(rgb(92, 64, 51), rgb(128,96,65), rgb(210, 180, 140));
+}
+
+table#frenchie tbody td div {
+    text-align: left;
+    padding: 5px;
+}
+/* - M6LO7 - This code here makes it so the first column is styled different than the second column */
+table#frenchie tbody td:nth-of-type(odd) {
+    border: 3px solid black;
+    border-radius: 35px;
+    padding: 3px;
+}
+
+table#frenchie tbody td:nth-of-type(even) {
+    border: dotted black;
+    border-radius: 35px;
+}
+
+/* Column Styles Homepage */
+
+col#frenchieCol {
+    width: 25%;
+}
+
+col#frenchie2Col {
+    color: black; /* M2LO15 */
+    width: 65%;
+}
+
+/* Table Style Nutrition & Grooming Page */
+
+table#nutrition {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    padding: 10px;
+}
+
+table#nutrition tbody {
+    background: linear-gradient(rgb(92, 64, 51), rgb(128,96,65), rgb(210, 180, 140));
+}
+
+table#nutrition thead th {
+    font-family: Impact, 'Times New Roman';
+    font-size: large;
+    font-style: italic;
+}
+
+table#nutrition tbody td {
+    border: double black 5px;
+}
+
+/* Column Styles Nutrition Page */
+
+col#nutritionCol {
+    width: 25%;
+}
+
+col#nutrition2Col {
+    width: 25%;
+}
+
+col#nutrition3Col {
+    width: 25%;
+}
+
+/* Table Style Exercise & Training Page */
+
+table#exercise {
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+table#exercise tr th {
+    font-family: serif, 'Times New Roman';
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow: rgb(210, 180, 140) 10px 6px 4px;
+}
+
+table#exercise tr td {
+    border: inset black 5px;
+    border-radius: 25px;
+    background: gray;
+}
+
+/* Column Styles Exercise Page */
+
+col#exerciseCol, col#exercise2Col {
+    width: 40%;
+}
+
+/* Table Style Breeders/Adoption Options Page */
+
+
+
+/* Table Style About Page */
+
+table#about {
+    font-family: 'Time New Roman';
+    font-size: medium;
+    text-align: center;
+    }
+    
+    table#about thead, th#about_head, tbody, td#about_info {
+        background: rgb(92, 64, 51);
+        border: double black 5px;
+    }
+    
+    table#about thead {
+        font-family: Impact, 'Times New Roman';
+        font-size: x-large;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    table#about tbody td {
+        font-weight: bold;
+        color: rgb(210, 180, 140);
+    }
+    
+    table#about tfoot td#foot {
+        font-size: small;
+        font-weight: bold;
+        background: black;
+        color: rgb(210, 180, 140);
+    }
